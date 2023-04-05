@@ -10,28 +10,35 @@
         content="photography, photographer, portfolio, images, gallery, landscape photography, cityscape, streetphotography, photos, creativity">
     <meta name="description"
         content="Welcome to my photography portfolio. Browse through the gallery of photos, Read more about me. Contact me with any questions or offers.">
-    <!--link rel="stylesheet" href="assets/css/html5reset.css"-->
-    <!-- <link rel="stylesheet" href="assets/css/styles.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/html5reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>Homepage</title>
 </head>
 
 <body>
     <header>
-        <div><a href="#main">Skip to Main Content</a></div>
-        <span><a href="./index.html">logo placeholder</a></span>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./portfolio.html">Portfolio</a></li>
-                <li><a href="./contact.html">Contact me</a></li>
-            </ul>
+        <div class="skip"><a href="#main"><i class="fa fa-long-arrow-down" aria-hidden="true"></i>&nbsp;&nbsp;Skip to
+                Main Content&nbsp;&nbsp;<i class="fa fa-long-arrow-down" aria-hidden="true"></i></a></div>
+        <nav class="navbar container">
+            <a href="./index.html" class="logo">OM.</a>
+            <input type="checkbox" id="toggler">
+            <label for="toggler"><i class="ri-menu-line"></i></label>
+            <div class="menu">
+                <ul class="list">
+                    <li class="active"><a href="./index.html">Home</a></li>
+                    <li><a href="./portfolio.html">Portfolio</a></li>
+                    <li><a href="./contact.html">Contact me</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main id="main">
-        <h1>Homepage</h1>
+        <div class="banner"><h1>Homepage</h1></div>
         <div>
             <section>
-                <h2>About</h2>
+                <h2>About me</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, hic temporibus exercitationem
                     aut
                     numquam cumque. In, atque. Nihil animi aliquid ipsum asperiores recusandae explicabo ratione quas
@@ -52,20 +59,16 @@
             </section>
             <section>
                 <h2>Featured photos</h2>
-                <div>
-                    <p><strong>NOTE:</strong> I have added the width attribute just for this proposal to downsize the photos a bit.
-                        The photos are pretty big so just to keep it cleaner. I will remove the width attribute once I
-                        link my CSS file. Most of the photos have also been exported only in 2048px on longer side. I will
-                        provide the full size for the final project.</p>
-                    <img src="./assets/img/2048px-dubrovnik.jpg" alt="dubrovnik" width="500">
-                    <img src="./assets/img/2048px-eibsee.jpg" alt="eibsee" width="500">
-                    <img src="./assets/img/DSC_1843.jpg" alt="seceda" width="500">
-                    <img src="./assets/img/2048px-5123.jpg" alt="san francisco" width="500">
-                    <img src="./assets/img/2048px-9493.jpg" alt="plitvicka" width="500">
-                    <img src="./assets/img/DSC_1743.jpg" alt="prague" width="500">
-                    <img src="./assets/img/2048px-1524.jpg" alt="tre cime" width="500">
-                    <img src="./assets/img/2048px-seiseralm.jpg" alt="seiser alm" width="500">
-                    <img src="./assets/img/2048px-3337-3.jpg" alt="neuschwanstein" width="500">
+                <div class="imgs-flex">
+                    <img src="./assets/img/2048px-dubrovnik.jpg" alt="dubrovnik">
+                    <img src="./assets/img/2048px-eibsee.jpg" alt="eibsee">
+                    <img src="./assets/img/DSC_1843.jpg" alt="seceda">
+                    <img src="./assets/img/2048px-5123.jpg" alt="san francisco">
+                    <img src="./assets/img/2048px-9493.jpg" alt="plitvicka">
+                    <img src="./assets/img/DSC_1743.jpg" alt="prague">
+                    <img src="./assets/img/2048px-1524.jpg" alt="tre cime">
+                    <img src="./assets/img/2048px-seiseralm.jpg" alt="seiser alm">
+                    <img src="./assets/img/2048px-3337-3.jpg" alt="neuschwanstein">
                 </div>
             </section>
         </div>
