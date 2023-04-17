@@ -134,8 +134,37 @@ img {
     text-decoration: underline;
 }
 
+/* .list li:not(.active) {
+    opacity: .5;
+}
+
+.list li:not(.active):hover {
+   opacity: 1;
+} */
+
 .active:hover {
     color:#aa0202
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #30373f;
+    height: 100px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer div {
+
+}
+
+footer div:first-child {
+    margin-right: 20px;
 }
 
 @media screen and (min-width: 600px) {
