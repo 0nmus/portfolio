@@ -232,6 +232,7 @@ input {
     .grid-dol img,
     .grid-dub img {
         height: 100%;
+        object-fit: cover;
     }
 
     /* SF */
