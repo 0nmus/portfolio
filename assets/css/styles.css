@@ -180,7 +180,7 @@ input {
     caret-color: #dc3545;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
     .menu {
         display: flex;
         width: auto;
@@ -204,6 +204,10 @@ input {
         grid-column: 1 / span 2;
     }
 
+    .grid-dol a:nth-child(1) img {
+        width: 100%;
+    }
+
     .grid-dol a:nth-child(2) {
         grid-column: 1 / span 1;
     }
@@ -214,6 +218,10 @@ input {
 
     .grid-dol a:nth-child(4) {
         grid-column: 1 / -1;
+    }
+
+    .grid-dol a:nth-child(4) img {
+        width: 100%;
     }
 
     .grid-dol a:nth-child(5) {
@@ -228,9 +236,11 @@ input {
         grid-column: 1 / -1;
     }
 
-    .grid-sf img, 
-    .grid-dol img,
-    .grid-dub img {
+    .grid-dol a:nth-child(7) img {
+        width: 100%;
+    }
+
+    .grid img {
         height: 100%;
         object-fit: cover;
     }
@@ -256,16 +266,20 @@ input {
         grid-column: 3/ span 1;
     }
 
-    .grid-sf a:nth-child(3) {
-        grid-column: 3/ span 1;
-    }
-
     .grid-sf a:nth-child(4) {
         grid-column: 1/ -1;
     }
 
+    .grid-sf a:nth-child(4) img {
+        width: 100%;
+    }
+
     .grid-sf a:nth-child(5) {
         grid-column: 1/ -1;
+    }
+
+    .grid-sf a:nth-child(5) img {
+        width: 100%;
     }
 
     .grid-sf a:nth-child(7) {
@@ -283,6 +297,10 @@ input {
 
     .grid-dub a:nth-child(1) {
         grid-column: 1/ -1;
+    }
+
+    .grid-dub a:nth-child(1) img {
+        width: 100%;
     }
 
     .grid-dub a:nth-child(2) {
