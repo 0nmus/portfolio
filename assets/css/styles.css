@@ -235,6 +235,10 @@ input {
         object-fit: cover;
     }
 
+    .grid a {
+        max-height: 800px;
+    }
+
     /* SF */
     .grid-sf {
         grid-template-columns: repeat(3, 1fr);
@@ -322,6 +326,10 @@ input {
     .imgs a {
         max-width: calc((100% / 3) - 10px);
     } 
+
+    .grid a {
+        max-height: none;
+    }
     
     .about > div {
         display: grid;
