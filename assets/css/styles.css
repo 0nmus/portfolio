@@ -120,7 +120,6 @@ body>header {
 .menu {
     width: 100%;
     display: none;
-    /* overflow: hidden; */
 }
 
 .navbar label {
