@@ -180,6 +180,10 @@ input {
     caret-color: #dc3545;
 }
 
+form {
+    margin-bottom: 11vh;
+}
+
 @media screen and (min-width: 768px) {
     .menu {
         display: flex;
@@ -489,5 +493,7 @@ input {
     .grid-dub a:nth-child(7) {
         grid-column: 1 / -1;
     }
+
+
 
 }
