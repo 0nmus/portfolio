@@ -13,14 +13,14 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.banner > div{
+.banner>div {
     background-image: url("../img/sf/2048px-5123.jpg");
     height: calc(100vh - 70px);
     background-repeat: no-repeat;
     object-fit: cover;
 }
 
-.banner .mask > div {
+.banner .mask>div {
     margin-bottom: 15%;
 }
 
@@ -29,7 +29,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(5px);
 }
 
@@ -61,7 +61,7 @@ body>header {
     z-index: 2;
 }
 
-.imgs{
+.imgs {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -289,7 +289,7 @@ form {
     .grid-sf a:nth-child(7) {
         grid-column: 2/ span 1;
     }
-    
+
     .grid-sf a:nth-child(8) {
         grid-column: 3/ span 1;
     }
@@ -331,7 +331,7 @@ form {
         grid-column: 2/ span 2;
     }
 
-    .imgs{
+    .imgs {
         flex-wrap: wrap;
         flex-direction: row;
         column-gap: 15px;
@@ -346,13 +346,13 @@ form {
 @media screen and (min-width: 1024px) {
     .imgs a {
         max-width: calc((100% / 3) - 10px);
-    } 
+    }
 
     .grid a {
         max-height: none;
     }
-    
-    .about > div {
+
+    .about>div {
         display: grid;
         grid-template-columns: 0.5fr 1.5fr;
     }
@@ -454,6 +454,7 @@ form {
     .grid-sf a:nth-child(6) {
         grid-column: 1/ span 2;
     }
+
     .grid-sf a:nth-child(7) {
         grid-column: 3/ span 2;
     }
@@ -492,7 +493,5 @@ form {
     .grid-dub a:nth-child(7) {
         grid-column: 1 / -1;
     }
-
-
 
 }
